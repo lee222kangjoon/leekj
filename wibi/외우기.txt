@@ -1,0 +1,7 @@
+html,body{margin: 0; width: 100%; height: 100%;}
+h1,h2,h3,h4,h5,h6,p,div,ol,ul,li,dt,dd{margin:0; padding: 0;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;}
+a:hover, a:focus{color:#368AFF; text-decoration: underline; outline: 3px solid #fa0;}
+
+header,nav,aside,section,article,footer,main,figure{display:block;}

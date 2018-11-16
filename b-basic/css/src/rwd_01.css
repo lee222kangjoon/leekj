@@ -1,0 +1,48 @@
+
+/* rwd_01.css */
+
+#wrap{width: 100%; height: 2000px; background-color: #fa0;}
+
+/* mobile ----------------*/
+ @media screen and (max-width: 480px) {
+
+
+ #wrap{width: 80%; background-color: #2e3192; color: #fff;}
+
+ } /* mobile end*/
+
+
+ /* tablet -------------------------------*/
+ @media screen and (min-width: 481px) and (max-width: 1024px) {
+
+
+  #wrap{height: 500px; background-color: #c30; color: #fc0;}
+ }
+
+  /* pc--------------------------------*/
+  @media screen and (min-width: 1025px){
+
+
+    #wrap{width: 960px; background-color: #077; margin: auto;}
+    #header{width: 960PX; height: 150px; background-color: #770;}
+    #logo{width: 100px; height: 150px; background-color: #eee;}
+
+    #section{width: 960PX;height: 450px; background-color: #39a;}
+
+    #artbox{width: 960px; height: 400px; background-color: #623;}
+      #nemo1{width: 238px; height: 400px; 
+        background-color: #053;}
+      #nemo2{width: 238px; height: 400px; 
+        background-color: #0e3;}
+      #nemo3{width: 238px; height: 400px; 
+        background-color: #0c3;}
+      #nemo4{width: 238px; height: 400px; 
+        background-color: #0a3;}    
+
+    #footer{width: 960px; height: 100px; background-color: #999;}
+    #footerlo{width: 100px; height: 100px; background-color: #eee;}
+
+
+
+  }
+    /* pc end */

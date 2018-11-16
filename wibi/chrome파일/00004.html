@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edgauto" />
+	<title>work</title>
+
+<style>
+/* reset.css */
+html,body{margin: 0; width: 100%; height: 100%;}
+h1,h2,h3,h4,h5,h6,p,div,ol,ul,li,dt,dd{margin:0; padding: 0;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;}
+a:hover, a:focus{color:#368AFF; text-decoration: underline; outline: 3px solid #fa0;}
+
+header,nav,aside,section,article,footer,main,figure{display:block;}
+/* common.css */
+.hidden{width: 0; height: 0; overflow: hidden;}
+.clearfix{clear: both:120px}
+
+#wrap {width: 1000px; height: 1500px; margin:0 auto;}
+#section {width: 960px; height: 850px; background-color: #ff04a4;padding: 20px; background-color: #444;}
+#headBox {width: 100%;height: 100px; background-color: #b7b7b7; }
+#h1 {color: #fff; width:360px; height: 80px; background-color: #272727;float: left; }
+#nav {width: 100%; height: 50px; background-color: #0000db;}
+#nav1 {color: #fff; width: 240px; height: 50px; background-color: #6f6f6f; float: left;}
+#nav2 {color: #fff; width: 240px; height: 50px; background-color: #5d5d5d; float: left;}
+#nav3 {color: #fff; width: 240px; height: 50px; background-color: #4b4b4b; float: left;}
+#nav4 {color: #fff; width: 240px; height: 50px; background-color: #393939; float: left;}
+#aside {color:#fff; width: 360px; height: 580px; background-color: #FFE400; float:left;}
+#asideBox1{color: #fff;width: 360px; height: 120px; background-color: #6f6f6f;}
+#asideBox2{color: #fff;width: 360px; height: 120px; background-color: #5d5d5d;}
+#asideBox3{color: #fff;width: 360px; height: 120px; background-color: #4b4b4b;}
+#asideBox4{color: #fff;width: 360px; height: 120px; background-color: #393939;}
+#h3 {width:360px; height: 100px; background-color: #272727;}
+#section3 {width:600px; height: 580px; background-color: #1ddb16; float: right;}
+#article1 {width: auto; height: 225px; background-color:#6f6f6f;}
+#artbox1 {color: #fff; width:55px; height: 185px; background-color: #4b4b4b; float: right; }
+#artbox2 {color: #fff; width:55px; height: 185px; background-color: #4b4b4b; float: left; }
+#h1-1 {width:600px; height: 40px; background-color:#272727; float: left; }
+#artticle2 {width: auto; height: 125px; background-color:#f00;}
+#article2box1 {color: #fff; width:150px; height: 120px; background: #393939; float:left; }
+#article2box2 {color: #fff; width:150px; height: 120px; background: #4b4b4b; float:left;}
+#article2box3 {color: #fff; width:150px; height: 120px; background: #5d5d5d; float:left;}
+#article2box4 {color: #fff; width:150px; height: 120px; background: #6f6f6f; float:left; }
+#artticle3 {width: auto; height: 125px; background-color:#f00;}
+#article3box1 {color: #fff; width:150px; height: 120px; background: #393939; float:left; }
+#article3box2 {color: #fff; width:150px; height: 120px; background: #4b4b4b; float:left;}
+#article3box3 {color: #fff; width:150px; height: 120px; background: #5d5d5d; float:left;}
+#article3box4 {color: #fff; width:150px; height: 120px; background: #6f6f6f; float:left; }
+#artticle4 {width: auto; height: 125px; background-color:#f00;}
+#article4box1 {color: #fff; width:150px; height: 120px; background: #393939; float:left; }
+#article4box2 {color: #fff; width:150px; height: 120px; background: #4b4b4b; float:left;}
+#article4box3 {color: #fff; width:150px; height: 120px; background: #5d5d5d; float:left;}
+#article4box4 {color: #fff; width:150px; height: 120px; background: #6f6f6f; float:left; }
+#section2 {width: 100%; height: 580px; background-color: #fff;}
+#section>h2{width: 0; height: 0; overflow: hidden;}
+#footer {color: #fff; width: 960px; height: 120px; background-color: #4b4b4b; }
+#footer>h2{width: 100px; height: 60px; background-color: #4b4b4b; font-size: 1rem; color: #fff;} 
+#address {color: #000; width: 600px; height: 50px; background-color: #bdbdbd; float: right;}
+
+
+	
+</style>
+
+</head>
+
+<body>
+<!-- layout -->
+<div id="wrap">
+	<div id="section">
+		<header id="headBox">
+			<div id="h1"><h1>제목을 입력하세요.</h1></div>
+		</header>
+		<div id="nav">
+			<div id="nav1"><h2>전체메뉴</h2></div>
+			<div id="nav2"><h2>메뉴</h2></div>
+			<div id="nav3"><h2>메뉴</h2></div>
+			<div id="nav4"><h2>메뉴</h2></div>
+		</div>
+		<div id="section2">
+			<h2 class="hidden">>본문내용</h2>
+			<div id="aside">
+				<h3 class="hidden">aside영역의 제목</h3>
+				<div id="h3"></div>
+				<div id="asideBox1">박스1</div>
+				<div id="asideBox2">박스2</div>
+				<div id="asideBox3">박스3</div>
+				<div id="asideBox4">박스4</div>
+			</div>
+			<div id="section3">
+				<div id="article1">
+					<h3 class="hidden">본문에 내용에 따른 제목</h3>
+					<div id="artbox1"></div>
+					<div id="artbox2"></div>
+					<div id="h1-1"></div>
+				</div>
+					<div id="artticle2">
+						<div id="article2box1"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+						<div id="article2box2"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+						<div id="article2box3"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+						<div id="article2box4"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+					</div>
+					<div id="artticle3">
+						<div id="article3box1"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+						<div id="article3box2"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+						<div id="article3box3"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+						<div id="article3box4"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+					</div>
+					<div id="artticle4">
+						<div id="article4box1"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+						<div id="article4box2"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+						<div id="article4box3"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+						<div id="article4box4"> <h3 class="hidden">하위 내용을 정리하는 제목</h3></div>
+					</div>
+			</div>
+		</div>
+		<div id="footer">
+			<h2 class="hidden">>information 제목</h2>
+			<div id="h2"></div>
+			<div id="address">-- 광고 라인 --</div>
+		</div>
+
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+

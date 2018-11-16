@@ -1,0 +1,22 @@
+/* rwd_01.css */
+
+#wrap{width: 100%; height: 2000px; background-color: #fa0;}
+/* mobile ----------------*/
+ @mobile screen and {max width: 480px;}
+
+ #wrap{background-color: #2e3192;}
+
+ /* mobile end*/
+
+
+ /* tablet -------------------------------*/
+ @modile screen and {min-width: 481px;} and {max-width: 1024px;}
+
+  #warp{background-color: #c30; color: #fx0;}
+
+  /* pc--------------------------------*/
+  @@modile screen and {min-width: 1025px;}
+
+    #warp{background-color: #070;}
+
+    /* pc end */

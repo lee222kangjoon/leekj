@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edgauto" />
+	<title>work</title>
+
+<style>
+/* reset.css */
+html,body{margin: 0; width: 100%; height: 100%;}
+h1,h2,h3,h4,h5,h6,p,div,ol,ul,li,dt,dd{margin:0; padding: 0;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;}
+a:hover, a:focus{color:#368AFF; text-decoration: underline; outline: 3px solid #fa0;}
+
+header,nav,aside,section,article,footer,main,figure{display:block;}
+/* common.css */
+#wrap{margin:auto; width: 940px; height: 1200px; background-color: #fff;}
+#headbox{padding-top: 25px; box-sizing: border-box; padding-left: 155px; box-sizing: border-box;  width: 940px; height: 96px; background-color: #999;}
+#logo{width: 103px; height: 43px; background-color: #777; float: left;}
+#gnb{margin-left: 83px; width: 450px; height: 43px; background-color: #888; float: left;}
+#gnbls1 {width: 75px; height: 43px; background-color: #666; float: left;}
+#gnbls2 {width: 75px; height: 43px; background-color: #777; float: left;}
+#gnbls3 {width: 75px; height: 43px; background-color: #888; float: left;}
+#gnbls4 {width: 75px; height: 43px; background-color: #999; float: left;}
+#gnbls5 {width: 75px; height: 43px; background-color: #aaa; float: left;}
+#gnbls6 {width: 75px; height: 43px; background-color: #bbb; float: left;}
+
+#adcan{padding-left: 155px; box-sizing: border-box; width: 940px; height:38px; background-color: #bbb;}
+#ad1{width: 205px; height: 38px; background-color:#555; float: left;}
+#ad2{width: 205px; height: 38px; background-color: #777; float: left;}
+
+#section{width: 940px; height: 237px; background-color:#666;}
+#mainpic{padding-left: 166px; box-sizing: border-box; padding-top: 76px; box-sizing: border-box; width: 940px; height: 213px; background-color:#dbdbdb; }
+#verysleep{color: #eee; width: 194px; height: 163px; background-color: #db0000;}
+
+#news{padding-left: 166px;box-sizing: border-box; width: 940px; height: 181px; background-color:#bbb;}
+#newsline{width: 650px; height: 38px; background-color:#fff; float: left;}
+#newslo{width: 63px; height: 38px; background-color: #ddd; float: left;}
+#morenews{width: 40px; height: 38px; background-color: #888; float: right;}
+#news1{width: 145px; height: 145px; background-color: #666;float: left;}
+#newspic1{width: 145px; height: 93px; background-color: #888;}
+#news2{margin-left: 12px; width: 145px; height: 145px; background-color: #666;float: left;}
+#newspic2{width: 145px; height: 93px; background-color: #888;}
+#news3{margin-left: 12px; width: 145px; height: 145px; background-color: #666;float: left;}
+#newspic3{width: 145px; height: 93px; background-color: #888;}
+#news4{margin-left: 12px; width: 145px; height: 145px; background-color: #666;float: left;}
+#newspic4{width: 145px; height: 93px; background-color: #888;}
+
+#people{padding-left: 166px;box-sizing: border-box; width: 940px; height: 183px; background-color: #666;}
+#nemo{width: 311px; height: 183px; background-color: #777; float: left;}
+#namoer1{width: 300px; height: 30px; background-color:#bbb;}
+#pic1{width: 300px; height: 154px; background-color: #f44; float: left;}
+#gazette{width: 311px; height: 183px; background-color: #999; float: left;}
+#namoer2{width: 300px; height: 30px; background-color:#bbb;}
+#pic2{width: 300px; height: 154px; background-color: #f44; float: left;}
+
+#cmst{padding-left: 166px; box-sizing: border-box; padding-top: 16px; box-sizing: border-box; width: 940px; height: 222px; background-color:#555;}
+#text{width: 300px; height:168px; background-color: #777; float: left;}
+#TL1{width: 60px; height: 26px; background-color:#f33; float: left;}
+#TL2{width: 60px; height: 26px; background-color: #ddd; float: left;}
+#TL3{width: 60px; height: 26px; background-color: #ccc; float: left;}
+#TL4{width: 60px; height: 26px; background-color: #bbb; float: left;}
+#TL5{width: 60px; height: 26px; background-color: #aaa; float: left;}
+#keee{width: 324px; height: 168px; background-color: #888; float: left;}
+#keke1{width: 81px; height: 54px; background-color: #555; float: left; }
+#keke2{width: 81px; height: 54px; background-color: #666; float: left; }
+#keke3{width: 81px; height: 54px; background-color: #777; float: left; }
+#keke4{width: 81px; height: 54px; background-color: #888; float: left; }
+#keke5{width: 81px; height: 54px; background-color: #999; float: left; }
+#keke6{width: 81px; height: 54px; background-color: #aaa; float: left; }
+#keke7{width: 81px; height: 54px; background-color: #bbb; float: left; }
+#keke8{width: 81px; height: 54px; background-color: #ccc; float: left; }
+#keke9{width: 162px; height: 54px; background-color:#ddd; float: left;}
+#keke10{width: 81px; height: 55px; background-color: #eee; ;float: left;}
+#keke11{width: 81px; height: 55px; background-color: #fff; ;float: left;}
+
+#footer{padding-left: 155px; box-sizing: border-box; width: 940px; height: 82px; background-color:#333;}
+#footmenu{width: 634px; height: 47px; background-color: #444;}
+#FM1{color:#fff; width: 54px; height: 47px; background-color: #111; float: left;}
+#FM2{color:#fff; width: 52px; height: 47px; background-color: #222; float: left;}
+#FM3{color:#fff; width: 55px; height: 47px; background-color: #333; float: left;}
+#FM4{color:#fff; width: 52px; height: 47px; background-color: #444; float: left;}
+#FM5{width: 55px; height: 47px; background-color: #555; float: left;}
+#FM6{width: 51px; height: 47px; background-color: #666; float: left;}
+#FM7{width: 55px; height: 47px; background-color: #777; float: left;}
+#FM8{width: 52px; height: 47px; background-color: #888; float: left;}
+#FM9{width: 52px; height: 47px; background-color: #999; float: left;}
+#FM10{width: 52px; height: 47px; background-color: #aaa; float: left;}
+#FM11{width: 52px; height: 47px; background-color: #bbb; float: left;}
+#FM12{width: 52px; height: 47px; background-color: #ccc; float: left;}
+#footerbar{width: 634px; height: 36px; background-color: #555;}
+#FBT{width: 270px; height: 22px; background-color:#999; float: left;}
+#FS{width: 364px; height: 22px; background-color: #aaa; float: left;}
+#fsls1{width: 71px; height: 22px; background-color: #888; float: left;}
+#fsls2{width: 73px; height: 22px; background-color: #777; float: left;}
+#fsls3{width: 74px; height: 22px; background-color: #666; float: left;}
+#fsls4{width: 72px; height: 22px; background-color: #555; float: left;}
+#fsls5{width: 74px; height: 22px; background-color: #444; float: left;}
+
+</style>
+
+ <body>
+ 	<div id="wrap">
+ 		<div id="headbox">
+ 			<div id="logo"><h1>logo</h1></div>
+ 			<div id="gnb">
+ 				<div id="gnbls1"><h4>학교소개</h4></div>
+				<div id="gnbls2"><h4>입학/대학원</h4></div>
+				<div id="gnbls3"><h4>학생지원</h4></div>
+				<div id="gnbls4"><h4>연구산학</h4></div>
+				<div id="gnbls5"><h4>캠퍼스생활</h4></div>
+ 				<div id="gnbls6"><h4>서강스토리</h4></div>
+ 			</div>
+ 		</div>
+
+ 		<div id="adcan">
+ 			<div id="ad1"><h6>2019학년도-수시-합격자-발표</h6></div>
+ 				<div id="ad2"><h6>2019학년도-순수외국인-합격자-발표</h6></div>
+ 		</div>
+
+ 		<div id="section">
+ 				<div id="mainpic">
+ 					<div id="verysleep"> <h1>2018-서강-사진-공모전-수상작-공개</h1></div>
+ 				</div>
+ 			</div>
+
+ 			<div id="news">
+ 				<div id="newsline">
+ 					<div id="newslo"><h2>news</h2></div>
+ 					<div id="morenews"></div>
+ 				</div>
+ 				<div id="news1">
+ 					<div id="newspic1"></div>
+ 				</div>
+ 				<div id="news2">
+ 					<div id="newspic2"></div>
+ 				</div>
+ 				<div id="news3">
+ 					<div id="newspic3"></div>
+ 				</div>
+ 				<div id="news4">
+ 					<div id="newspic4"></div>
+ 				</div>
+ 			</div>
+
+ 			<div id="people">
+ 				<div id="nemo">
+ 					<div id="namoer1"><h3>people</h3></div>
+ 					<div id="pic1"></div>
+ 				</div>
+ 				<div id="gazette">
+ 					<div id="namoer2"><h3>gazette</h3></div>
+ 					<div id="pic2"></div>
+ 				</div>
+ 			</div>
+
+ 			<div id="cmst">
+ 				<div id="text">
+ 					<div id="TL1"><h6>일반공지</h6></div>
+ 					<div id="TL2"><h6>학사공지</h6></div>
+ 					<div id="TL3"><h6>장학공지</h6></div>
+ 					<div id="TL4"><h6>행사특강</h6></div>
+ 					<div id="TL5"><h6>서강캘린더</64></div>
+ 				</div>
+ 				<div id="keee">
+ 					<div id="keke1"><h5>세인트</h5></div>
+ 					<div id="keke2"><h5>도서관</h5></div>
+ 					<div id="keke3"><h5>웹메일</h5></div>
+ 					<div id="keke4"><h5>사이버캠퍼스</h5></div> 
+ 					<div id="keke5"><h5>교내홈페이지</h5></div>
+ 					<div id="keke6"><h5>행정문서양식</h5></div>
+ 					<div id="keke7"><h5>증명서발급</h5></div>
+ 					<div id="keke8"><h5>캠퍼스클라우드</h5></div>
+ 					<div id="keke9"><h5>수강신청</h5></div>
+					<div id="keke10"><h5>교내전화번호</h5></div>
+					<div id="keke11"><h5>참아오시는길</h5></div>
+ 				</div>
+ 			</div>
+
+ 				<div id="footer">
+ 					<div id="footmenu">
+						<div id="FM1"><h6>학교법인</h6></div>
+						<div id="FM2"><h6>대학기구</h6></div>
+						<div id="FM3"><h6>총동문회</h6></div>
+						<div id="FM4"><h6>애결산</h6></div>
+						<div id="FM5"><h6>채용</h6></div>
+						<div id="FM6"><h6>대학정보공사</h6></div>
+						<div id="FM7"><h6>대학자체평가</h6></div>
+						<div id="FM8"><h6>개인정보공개</h6></div>
+						<div id="FM9"><h6>원격지원</h6></div>
+						<div id="FM10"><h6>입찰공고</h6></div>
+						<div id="FM11"><h6>평생교육원</h6></div>
+						<div id="FM12"><h6>한국어교육원</h6></div>
+ 					</div>
+ 					<div id="footerbar">
+ 						<div id="FBT"></div>
+ 						<div id="FS">
+							<div id="fsls1"></div>
+							<div id="fsls2"></div>
+							<div id="fsls3"></div>
+							<div id="fsls4"></div>
+							<div id="fsls5"></div>
+						</div>
+ 					</div>
+ 				</div>
+
+ 			</div>
+
+ 			
+ 		
+	</div>
+ 	
+
+
+
+
+ </body>

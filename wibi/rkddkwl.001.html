@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html lang="ko-KR">
+<head>  
+  <meta charset="UTF-8" />
+   <!-- meta:compat -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>position</title>
+  <style>
+     /* reset.css */
+  html,body{margin: 0; width: 100%; height: 100%;}
+  h1,h2,h3,h4,h5,h6,p,div,ul,ol,li,dt,dd,dl{margin: 0; padding: 0;}
+  ul,ol,li{list-style: none}
+ a{color:#000; text-decoration:none;}
+  a:hover, a:focus{color:#50f; text-decoration:underline;
+    outline:3px solid #50f;}
+header,nav,aside,section,article,footer,main,figure{display:block;}
+     /* common.css*/
+     .hidden{display:block;width: 0; height: 0; overflow: hidden; position:absolute; z-index: -100;}
+    .clearfix::after,.clearfix:after{content:""; display:block; width:0; height: 0; clear:both;}
+
+
+#wrap1{width: 1200px; height: 500px; background-image: linear-gradient(#222, #04f,#aaa);}
+#wrap2 {width: 1200px; height: 500px; background-image: linear-gradient(#aaa,#ff5e00, #222);}
+#head {position: fixed;top: 0; left: 0px; z-index: 500; width: 100%px; height: 200px; background-color: #fa0;}
+#sideBox1{position: fixed;transition-property: 280px; left: 500px;
+width: 50px; height: 480px; background-image: linear-gradient(#ff5e00, #00f); border:2px solid #333; border-radius: 15px;}
+#sideBox2{margin-left: 500px; width: 50px; height: 480px; background-image: linear-gradient(#f00,#ff5e00); border:2px solid #333; border-radius: 15px;}
+
+
+
+</style>
+</head>
+
+
+<body>
+  <div id="wrap1">
+   <div id="sideBox2">
+  </div>
+  <div id="wrap2">
+   <div id="head"></div>
+   <div id="sideBox1"></div>
+  </div>
+
+
+
+</body>

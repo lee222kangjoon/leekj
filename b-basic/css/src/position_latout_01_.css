@@ -1,0 +1,15 @@
+#wrap{width: 960px; height: auto; min-height: 500px; background-color: #cca;}
+h1{width: 100%; height: auto; text-align: center; border-bottom: 1px solid #333;}
+
+#position_01{position: relative; width: 100%;height: 500px; background-color: #faf; }
+.indicator{right:50%; margin-right:-125px; z-index: 500; position:absolute; bottom: 20px; width: 250px; height:20px; background-color: #765;}
+.btn{position:absolute; top: 50%; z-index: 500;  width: 100%; height:0px; background-color: #fff;}
+.nextbtn{display: block; float: right; width: 50px; height: 100px;  background-color: #fa0;}
+.prebtn{display: block; float: left; width: 50px; height: 100px;  background-color: #fa0;}
+
+.ad_banner{position: relative; width: 100%; height: 100%;}
+.ad_banner>div{position: absolute; top: 0; left: 0; width:100%; height: 100%;}
+.ad_01 {background-color: #f1a; z-index:30;}
+.ad_02 {background-color: #ffb; z-index:20;}
+.ad_03 {background-color: #63f; z-index:10;}
+.ad_banner a{display: block; width: 100%; height: 100%;}
